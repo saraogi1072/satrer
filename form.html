@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- <script src="js/bootstrap.js"></script> -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+  <!--- header start-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo.jpeg"></a>
+      <button class="navbar-toggler" style="background: black solid white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="background: red"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">SEO</a></li>
+              <li><a class="dropdown-item" href="#">Graphics Design</a></li>
+              <li><a class="dropdown-item" href="#">Web Hosting</a></li>
+              <li><a class="dropdown-item" href="#">Logo Design</a></li>
+              <li><a class="dropdown-item" href="#">Cloud Support</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Marketing
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+              <li><a class="dropdown-item" href="#">Email Marketing</a></li>
+              <li><a class="dropdown-item" href="#">Whatsapp Marketing</a></li>
+              <li><a class="dropdown-item" href="#">SMS Marketing</a></li>
+              <li><a class="dropdown-item" href="#">Ppc Marketing</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Development
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Application</a></li>
+              <li><a class="dropdown-item" href="#">Mobile Apps</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Internship
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Cloud</a></li>
+              <li><a class="dropdown-item" href="#">Mobile Apps</a></li>
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">ECommerce</a></li>
+              <li><a class="dropdown-item" href="#">Software</a></li>
+              <li><a class="dropdown-item" href="#">Testing</a></li>
+              <li><a class="dropdown-item" href="#">Management</a></li>
+              <li><a class="dropdown-item" href="#">More details</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reach Us</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- header end-->
+
+<Br>
+
+  <div class="container form-contain">
+    <form onsubmit="callvalue()">
+      <label for="">Certificate Number: </label>
+      <input class="form-control" type="text" name="" id="cer"><br>
+
+      <label for="">Name: </label>
+      <input class="form-control" type="text" name="" id="nam"><br>
+
+      <label for="">Email:</label>
+      <input class="form-control" type="email" name="" id="email"><br>
+
+      <label for="">Qualification:</label>
+      <input class="form-control" type="text" name="" id="qua"><br>
+
+      <label for="">Issue Date:</label>
+      <input type="date" id="Issue" name="issue" id="iss"><br>
+
+
+
+      <button type="submit" class="submit_btn">Submit</button>
+
+
+    </form>
+  </div>
+
+  <br><Br>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">SEO</a></li>
+                <li><a href="#">Graphics Design</a></li>
+                <li><a href="#">Web Hosting</a></li>
+                <li><a href="#">Logo Desigin</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Marketing</h3>
+              <ul>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Email Marketing</a></li>
+                <li><a href="#">Whatsapp Marketing</a></li>
+                <li><a href="#">SMS Marketing</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Development</h3>
+              <ul>
+                <li><a href="#">Application</a></li>
+                <li><a href="#">Mobile Apps</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Internship</h3>
+              <ul>
+                <li><a href="#">Cloud</a></li>
+                <li><a href="#">Testing</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">ECommerce</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="m-0 py-4 text-center">copyright &copy;2021 KGE Technologies</p>
+    </div>
+  </footer>
+
+  </div>
+  <!-- main wrapper end-->
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

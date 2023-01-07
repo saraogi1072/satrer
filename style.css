@@ -1,0 +1,101 @@
+
+form {
+    background-color: lightblue;
+    padding: 30px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.submit_btn{
+    margin-top: 30px;
+    background-color: blue;
+    color: wheat;
+    border: 2px solid whitesmoke;
+    padding: 10px 40px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    background-color: blue;
+    border-top: 1px solid white;
+
+}
+
+.footer-top{
+    padding: 50px 0 20px;
+}
+.footer-item{
+    margin: 0 0 30px;
+}
+
+.footer-item h3{
+    text-transform: capitalize;
+    color: white;
+    margin: 0 30px 20px;
+    font-style: italic;
+}
+
+.footer-item ul li:not(:last-child){
+    margin-bottom: 8px;    
+}
+.footer-item ul li{
+    list-style: none;
+}
+
+.footer-item ul a{
+    text-transform: capitalize;
+    color:white;
+    transition: color 0.3s ease; 
+    font-size: 20px;
+    padding: 15px 0px;
+    position: relative;
+}
+
+.footer-item li a{
+    text-decoration: none;
+}
+
+
+.footer-bottom{
+    border-top: 1px solid white;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.navbar{
+    background: blue;
+}
+
+.navbar-brand img{
+    max-width: 50px;
+}
+
+a.nav-link{
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-item{
+    margin-left: 30px;
+}
+
+.btn-outline{
+    color: black;
+    background: wheat
+}
